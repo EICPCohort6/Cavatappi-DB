@@ -1,0 +1,38 @@
+Courses
+- Course name
+- Course ID (primary key)
+- affiliated major
+- Course Description
+- Number of Credits
+
+Students
+- First name
+- Last name
+- Student ID (primary key)
+- Major
+- Grad Year
+
+Classes
+- Course ID (foreign key to Courses)
+- Section ID (primary key)
+- Instructor
+- Class meeting time
+- Available seats
+
+- possible attribute (??) : semester active
+
+Registrations compound key: (Student ID, Section ID) - could have a registration ID as primary key
+- Student ID (foreign key to students)
+- Section ID (foreign key to Classes)
+- Semester Taken
+- Instructor
+
+(sar07997  cse 100 )
+sar07997 cse 200
+(todd cse 100)
+todd eng 200
+
+
+
+
+
