@@ -96,4 +96,29 @@ VALUES
 145,
 2022,
 'Jeremy Jones');
+INSERT INTO `database_university`.`classes`
+(`CourseID`,
+`SectionID`,
+`Instructor`,
+`MeetingTime`,
+`AvailSeats`)
+VALUES
+('SOC200',
+189,
+'George',
+'Spring 2022',
+35)
+
+INSERT INTO `database_university`.`classes`
+(`CourseID`,
+`SectionID`,
+`Instructor`,
+`MeetingTime`,
+`AvailSeats`)
+VALUES
+('SOC200',
+190,
+'Joseph',
+'Spring 2022',
+35)
 
